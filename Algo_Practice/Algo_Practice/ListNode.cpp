@@ -19,6 +19,7 @@ public:
     ListNode(int x) {
         val = x;
     }
+    
 };
 
 #endif
