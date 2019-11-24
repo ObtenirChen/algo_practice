@@ -9,6 +9,7 @@
 #include <iostream>
 #include "AllSort.cpp"
 #include "Permutation.cpp"
+#include "Parentheses.cpp"
 
 int main(int argc, const char * argv[]) {
     // insert code here...
@@ -33,6 +34,9 @@ int main(int argc, const char * argv[]) {
     vector<int> nums = {1,2, 3};
     Permutation *permute = new Permutation();
     vector<vector<int>> result = permute->permute(nums);
+    
+    Parentheses *pa = new Parentheses();
+    bool valid = pa->isValid("");
     
     return 0;
 }
