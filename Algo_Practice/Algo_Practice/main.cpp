@@ -8,6 +8,7 @@
 
 #include <iostream>
 #include "AllSort.cpp"
+#include "Permutation.cpp"
 
 int main(int argc, const char * argv[]) {
     // insert code here...
@@ -28,6 +29,10 @@ int main(int argc, const char * argv[]) {
     node6->next = NULL;
     
     as->quickSortList(node1, node6);
+    
+    vector<int> nums = {1,2, 3};
+    Permutation *permute = new Permutation();
+    vector<vector<int>> result = permute->permute(nums);
     
     return 0;
 }

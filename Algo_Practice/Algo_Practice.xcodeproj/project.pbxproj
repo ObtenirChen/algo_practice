@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		47153F432388327E00EBBF1A /* TreeNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 47153F422388327E00EBBF1A /* TreeNode.cpp */; };
 		47153F45238832AD00EBBF1A /* HandleTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 47153F44238832AD00EBBF1A /* HandleTree.cpp */; };
+		471E5EAB238A421B00A4A9A9 /* CarSharing.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 471E5EAA238A421B00A4A9A9 /* CarSharing.cpp */; };
+		471E5EAD238A500500A4A9A9 /* Permutation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 471E5EAC238A500500A4A9A9 /* Permutation.cpp */; };
+		472622FC238A5F62002E0BAD /* Matrix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 472622FB238A5F62002E0BAD /* Matrix.cpp */; };
 		478102ED2388052000526DC5 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 478102EC2388052000526DC5 /* main.cpp */; };
 		478102F42388054100526DC5 /* ListNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 478102F32388054100526DC5 /* ListNode.cpp */; };
 		478102F6238805C600526DC5 /* AllSort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 478102F5238805C600526DC5 /* AllSort.cpp */; };
@@ -29,6 +32,9 @@
 /* Begin PBXFileReference section */
 		47153F422388327E00EBBF1A /* TreeNode.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TreeNode.cpp; sourceTree = "<group>"; };
 		47153F44238832AD00EBBF1A /* HandleTree.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = HandleTree.cpp; sourceTree = "<group>"; };
+		471E5EAA238A421B00A4A9A9 /* CarSharing.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CarSharing.cpp; sourceTree = "<group>"; };
+		471E5EAC238A500500A4A9A9 /* Permutation.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Permutation.cpp; sourceTree = "<group>"; };
+		472622FB238A5F62002E0BAD /* Matrix.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Matrix.cpp; sourceTree = "<group>"; };
 		478102E92388052000526DC5 /* Algo_Practice */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Algo_Practice; sourceTree = BUILT_PRODUCTS_DIR; };
 		478102EC2388052000526DC5 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		478102F32388054100526DC5 /* ListNode.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ListNode.cpp; sourceTree = "<group>"; };
@@ -70,6 +76,9 @@
 				478102F5238805C600526DC5 /* AllSort.cpp */,
 				47153F422388327E00EBBF1A /* TreeNode.cpp */,
 				47153F44238832AD00EBBF1A /* HandleTree.cpp */,
+				471E5EAA238A421B00A4A9A9 /* CarSharing.cpp */,
+				471E5EAC238A500500A4A9A9 /* Permutation.cpp */,
+				472622FB238A5F62002E0BAD /* Matrix.cpp */,
 			);
 			path = Algo_Practice;
 			sourceTree = "<group>";
@@ -131,8 +140,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				472622FC238A5F62002E0BAD /* Matrix.cpp in Sources */,
 				478102F6238805C600526DC5 /* AllSort.cpp in Sources */,
+				471E5EAB238A421B00A4A9A9 /* CarSharing.cpp in Sources */,
 				478102ED2388052000526DC5 /* main.cpp in Sources */,
+				471E5EAD238A500500A4A9A9 /* Permutation.cpp in Sources */,
 				47153F45238832AD00EBBF1A /* HandleTree.cpp in Sources */,
 				478102F42388054100526DC5 /* ListNode.cpp in Sources */,
 				47153F432388327E00EBBF1A /* TreeNode.cpp in Sources */,
