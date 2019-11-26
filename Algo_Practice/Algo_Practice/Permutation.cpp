@@ -34,4 +34,24 @@ public:
         }
     }
     
+    vector<vector<int>> subsets(vector<int>& nums) {
+        vector<vector<int>> result;
+        vector<int> sub = {};
+        
+        doSubsets(0, sub, result, nums);
+        return result;
+    }
+    
+    void doSubsets(int i, vector<int> &sub, vector<vector<int>> &result, vector<int> &nums) {
+        result.push_back(sub);
+        for (int j = i; j < nums.size(); j++) {
+            if (j > i && nums[j] == nums[j - 1]) {
+                continue;
+            }
+            sub.push_back(nums[j]);
+            doSubsets(j+1, sub, result, nums);
+            sub.pop_back();
+        }
+    }
+    
 };

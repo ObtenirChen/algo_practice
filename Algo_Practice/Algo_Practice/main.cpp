@@ -16,14 +16,14 @@ int main(int argc, const char * argv[]) {
     // insert code here...
     std::cout << "Hello, World!\n";
     
-    vector<int> sortArr = {3, 5, 1, 30, 26, 19, 50, 99, 39, 41, 2};
-    AllSort *as = new AllSort();
-    
-    as->mergeSort(sortArr, 0, (int)sortArr.size() - 1);
-    
-    for (int i = 0; i < sortArr.size(); i++) {
-        cout << sortArr[i] << " ";
-    }
+//    vector<int> sortArr = {3, 5, 1, 30, 26, 19, 50, 99, 39, 41, 2};
+//    AllSort *as = new AllSort();
+//
+//    as->mergeSort(sortArr, 0, (int)sortArr.size() - 1);
+//
+//    for (int i = 0; i < sortArr.size(); i++) {
+//        cout << sortArr[i] << " ";
+//    }
     
 //    ListNode *node1 = new ListNode(5);
 //    ListNode *node2 = new ListNode(1);
@@ -40,9 +40,9 @@ int main(int argc, const char * argv[]) {
 //
 //    as->quickSortList(node1, node6);
 //
-//    vector<int> nums = {1,2, 3};
-//    Permutation *permute = new Permutation();
-//    vector<vector<int>> result = permute->permute(nums);
+    vector<int> nums = {1, 2, 3};
+    Permutation *permute = new Permutation();
+    vector<vector<int>> result = permute->subsets(nums);
 //
 //    Parentheses *pa = new Parentheses();
 //    bool valid = pa->isValid("");
