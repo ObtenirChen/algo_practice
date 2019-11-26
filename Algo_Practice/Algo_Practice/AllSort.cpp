@@ -47,7 +47,44 @@ public:
     }
     
     void mergeSort(vector<int> &arr, int low, int high) {
+        if (low >= high) {
+            return;
+        }
         
+        int mid = (high - low)/2 + low;
+        
+        mergeSort(arr, low, mid);
+        mergeSort(arr, mid + 1, high);
+        mergeArr(arr, low, mid, high);
+    }
+    
+    void mergeArr(vector<int> &arr, int low, int mid, int high) {
+        
+        vector<int> temp(high - low + 1);
+        
+        int p1 = low;
+        int p2 = mid + 1;
+        int i = 0;
+        
+        while (p1 <= mid && p2 <= high) {
+            if (arr[p1] < arr[p2]) {
+                temp[i++] = arr[p1++];
+            } else {
+                temp[i++] = arr[p2++];
+            }
+        }
+        
+        while (p1 <= mid) {
+            temp[i++] = arr[p1++];
+        }
+        
+        while (p2 <= high) {
+            temp[i++] = arr[p2++];
+        }
+        
+        for (int i = 0; i < temp.size(); i++) {
+            arr[low+i] = temp[i];
+        }
     }
     
 };
