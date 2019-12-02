@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		47153F432388327E00EBBF1A /* TreeNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 47153F422388327E00EBBF1A /* TreeNode.cpp */; };
 		47153F45238832AD00EBBF1A /* HandleTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 47153F44238832AD00EBBF1A /* HandleTree.cpp */; };
+		471DE5F92395503500561870 /* DynamicPlanning.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 471DE5F82395503500561870 /* DynamicPlanning.cpp */; };
+		471DE5FB23955C3100561870 /* RobMoney.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 471DE5FA23955C3100561870 /* RobMoney.cpp */; };
 		471E5EAB238A421B00A4A9A9 /* CarSharing.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 471E5EAA238A421B00A4A9A9 /* CarSharing.cpp */; };
 		471E5EAD238A500500A4A9A9 /* Permutation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 471E5EAC238A500500A4A9A9 /* Permutation.cpp */; };
 		472622FC238A5F62002E0BAD /* Matrix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 472622FB238A5F62002E0BAD /* Matrix.cpp */; };
@@ -35,6 +37,8 @@
 /* Begin PBXFileReference section */
 		47153F422388327E00EBBF1A /* TreeNode.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TreeNode.cpp; sourceTree = "<group>"; };
 		47153F44238832AD00EBBF1A /* HandleTree.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = HandleTree.cpp; sourceTree = "<group>"; };
+		471DE5F82395503500561870 /* DynamicPlanning.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = DynamicPlanning.cpp; sourceTree = "<group>"; };
+		471DE5FA23955C3100561870 /* RobMoney.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = RobMoney.cpp; sourceTree = "<group>"; };
 		471E5EAA238A421B00A4A9A9 /* CarSharing.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CarSharing.cpp; sourceTree = "<group>"; };
 		471E5EAC238A500500A4A9A9 /* Permutation.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Permutation.cpp; sourceTree = "<group>"; };
 		472622FB238A5F62002E0BAD /* Matrix.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Matrix.cpp; sourceTree = "<group>"; };
@@ -88,6 +92,8 @@
 				472622FD238A624C002E0BAD /* Parentheses.cpp */,
 				472622FF238A6B2A002E0BAD /* HandleList.cpp */,
 				472BFD2D238D6B0C0008AB5D /* Majority.cpp */,
+				471DE5F82395503500561870 /* DynamicPlanning.cpp */,
+				471DE5FA23955C3100561870 /* RobMoney.cpp */,
 			);
 			path = Algo_Practice;
 			sourceTree = "<group>";
@@ -153,8 +159,10 @@
 				472622FC238A5F62002E0BAD /* Matrix.cpp in Sources */,
 				472622FE238A624C002E0BAD /* Parentheses.cpp in Sources */,
 				478102F6238805C600526DC5 /* AllSort.cpp in Sources */,
+				471DE5F92395503500561870 /* DynamicPlanning.cpp in Sources */,
 				471E5EAB238A421B00A4A9A9 /* CarSharing.cpp in Sources */,
 				478102ED2388052000526DC5 /* main.cpp in Sources */,
+				471DE5FB23955C3100561870 /* RobMoney.cpp in Sources */,
 				47262300238A6B2A002E0BAD /* HandleList.cpp in Sources */,
 				471E5EAD238A500500A4A9A9 /* Permutation.cpp in Sources */,
 				47153F45238832AD00EBBF1A /* HandleTree.cpp in Sources */,

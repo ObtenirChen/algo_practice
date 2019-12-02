@@ -11,6 +11,7 @@
 #include "Permutation.cpp"
 #include "Parentheses.cpp"
 #include "Matrix.cpp"
+#include "DynamicPlanning.cpp"
 
 int main(int argc, const char * argv[]) {
     // insert code here...
@@ -40,9 +41,9 @@ int main(int argc, const char * argv[]) {
 //
 //    as->quickSortList(node1, node6);
 //
-    vector<int> nums = {1, 2, 3};
-    Permutation *permute = new Permutation();
-    vector<vector<int>> result = permute->subsets(nums);
+//    vector<int> nums = {1, 2, 3};
+//    Permutation *permute = new Permutation();
+//    vector<vector<int>> result = permute->subsets(nums);
 //
 //    Parentheses *pa = new Parentheses();
 //    bool valid = pa->isValid("");
@@ -54,6 +55,9 @@ int main(int argc, const char * argv[]) {
 //    for (int i = 0; i < result.size(); i++) {
 //        cout << result[i] << " ";
 //    }
+    
+    DynamicPlanning *dp = new DynamicPlanning();
+    dp->numPermsDISequence("DID");
     
     return 0;
 }
