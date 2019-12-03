@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4707D1C52396527F00A15132 /* MidNumber.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4707D1C42396527F00A15132 /* MidNumber.cpp */; };
 		47153F432388327E00EBBF1A /* TreeNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 47153F422388327E00EBBF1A /* TreeNode.cpp */; };
 		47153F45238832AD00EBBF1A /* HandleTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 47153F44238832AD00EBBF1A /* HandleTree.cpp */; };
 		471DE5F92395503500561870 /* DynamicPlanning.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 471DE5F82395503500561870 /* DynamicPlanning.cpp */; };
@@ -35,6 +36,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		4707D1C42396527F00A15132 /* MidNumber.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MidNumber.cpp; sourceTree = "<group>"; };
 		47153F422388327E00EBBF1A /* TreeNode.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TreeNode.cpp; sourceTree = "<group>"; };
 		47153F44238832AD00EBBF1A /* HandleTree.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = HandleTree.cpp; sourceTree = "<group>"; };
 		471DE5F82395503500561870 /* DynamicPlanning.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = DynamicPlanning.cpp; sourceTree = "<group>"; };
@@ -94,6 +96,7 @@
 				472BFD2D238D6B0C0008AB5D /* Majority.cpp */,
 				471DE5F82395503500561870 /* DynamicPlanning.cpp */,
 				471DE5FA23955C3100561870 /* RobMoney.cpp */,
+				4707D1C42396527F00A15132 /* MidNumber.cpp */,
 			);
 			path = Algo_Practice;
 			sourceTree = "<group>";
@@ -158,6 +161,7 @@
 				472BFD2E238D6B0C0008AB5D /* Majority.cpp in Sources */,
 				472622FC238A5F62002E0BAD /* Matrix.cpp in Sources */,
 				472622FE238A624C002E0BAD /* Parentheses.cpp in Sources */,
+				4707D1C52396527F00A15132 /* MidNumber.cpp in Sources */,
 				478102F6238805C600526DC5 /* AllSort.cpp in Sources */,
 				471DE5F92395503500561870 /* DynamicPlanning.cpp in Sources */,
 				471E5EAB238A421B00A4A9A9 /* CarSharing.cpp in Sources */,
