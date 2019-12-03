@@ -12,6 +12,7 @@
 #include "Parentheses.cpp"
 #include "Matrix.cpp"
 #include "DynamicPlanning.cpp"
+#include "Seek.cpp"
 
 int main(int argc, const char * argv[]) {
     // insert code here...
@@ -58,6 +59,11 @@ int main(int argc, const char * argv[]) {
     
     DynamicPlanning *dp = new DynamicPlanning();
     dp->numPermsDISequence("DID");
+    
+    Seek *sk = new Seek();
+    vector<int> num1 = {1, 3};
+    vector<int> num2 = {2};
+    cout << sk->findMedianSortedArrays(num1, num2);
     
     return 0;
 }

@@ -51,4 +51,26 @@ public:
         return ans;
     }
     
+    
+    int checkRecord(int n) {
+        
+        vector<long> result(n < 5 ? 6 : n+1);
+        int mod = 1e9 + 7;
+        
+        result[0] = 1;
+        result[1] = 2;
+        result[2] = 4;
+        result[3] = 7;
+        
+        for (int i = 4; i <= n; i++) {
+            result[i] = ((2 * result[i - 1]) % mod + (mod - result[i - 4])) % mod;
+        }
+        long sum = result[n];
+        for (int i = 1; i <= n; i++) {
+            sum += (result[i - 1] * result[n - i]) % mod;
+        }
+        
+        return sum % mod;
+    }
+    
 };

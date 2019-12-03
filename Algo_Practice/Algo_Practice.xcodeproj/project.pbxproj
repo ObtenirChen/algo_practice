@@ -10,6 +10,7 @@
 		4707D1C52396527F00A15132 /* MidNumber.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4707D1C42396527F00A15132 /* MidNumber.cpp */; };
 		47153F432388327E00EBBF1A /* TreeNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 47153F422388327E00EBBF1A /* TreeNode.cpp */; };
 		47153F45238832AD00EBBF1A /* HandleTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 47153F44238832AD00EBBF1A /* HandleTree.cpp */; };
+		4717FDBD2396B8D6002FC691 /* Seek.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4717FDBC2396B8D6002FC691 /* Seek.cpp */; };
 		471DE5F92395503500561870 /* DynamicPlanning.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 471DE5F82395503500561870 /* DynamicPlanning.cpp */; };
 		471DE5FB23955C3100561870 /* RobMoney.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 471DE5FA23955C3100561870 /* RobMoney.cpp */; };
 		471E5EAB238A421B00A4A9A9 /* CarSharing.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 471E5EAA238A421B00A4A9A9 /* CarSharing.cpp */; };
@@ -39,6 +40,7 @@
 		4707D1C42396527F00A15132 /* MidNumber.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MidNumber.cpp; sourceTree = "<group>"; };
 		47153F422388327E00EBBF1A /* TreeNode.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TreeNode.cpp; sourceTree = "<group>"; };
 		47153F44238832AD00EBBF1A /* HandleTree.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = HandleTree.cpp; sourceTree = "<group>"; };
+		4717FDBC2396B8D6002FC691 /* Seek.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Seek.cpp; sourceTree = "<group>"; };
 		471DE5F82395503500561870 /* DynamicPlanning.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = DynamicPlanning.cpp; sourceTree = "<group>"; };
 		471DE5FA23955C3100561870 /* RobMoney.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = RobMoney.cpp; sourceTree = "<group>"; };
 		471E5EAA238A421B00A4A9A9 /* CarSharing.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CarSharing.cpp; sourceTree = "<group>"; };
@@ -97,6 +99,7 @@
 				471DE5F82395503500561870 /* DynamicPlanning.cpp */,
 				471DE5FA23955C3100561870 /* RobMoney.cpp */,
 				4707D1C42396527F00A15132 /* MidNumber.cpp */,
+				4717FDBC2396B8D6002FC691 /* Seek.cpp */,
 			);
 			path = Algo_Practice;
 			sourceTree = "<group>";
@@ -167,6 +170,7 @@
 				471E5EAB238A421B00A4A9A9 /* CarSharing.cpp in Sources */,
 				478102ED2388052000526DC5 /* main.cpp in Sources */,
 				471DE5FB23955C3100561870 /* RobMoney.cpp in Sources */,
+				4717FDBD2396B8D6002FC691 /* Seek.cpp in Sources */,
 				47262300238A6B2A002E0BAD /* HandleList.cpp in Sources */,
 				471E5EAD238A500500A4A9A9 /* Permutation.cpp in Sources */,
 				47153F45238832AD00EBBF1A /* HandleTree.cpp in Sources */,
