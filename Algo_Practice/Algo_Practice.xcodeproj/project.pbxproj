@@ -17,6 +17,8 @@
 		471DE5FB23955C3100561870 /* RobMoney.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 471DE5FA23955C3100561870 /* RobMoney.cpp */; };
 		471E5EAB238A421B00A4A9A9 /* CarSharing.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 471E5EAA238A421B00A4A9A9 /* CarSharing.cpp */; };
 		471E5EAD238A500500A4A9A9 /* Permutation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 471E5EAC238A500500A4A9A9 /* Permutation.cpp */; };
+		471FD46D239942DB0039B498 /* CalSum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 471FD46C239942DB0039B498 /* CalSum.cpp */; };
+		471FD46F23994DB60039B498 /* AddTwoNum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 471FD46E23994DB60039B498 /* AddTwoNum.cpp */; };
 		472622FC238A5F62002E0BAD /* Matrix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 472622FB238A5F62002E0BAD /* Matrix.cpp */; };
 		472622FE238A624C002E0BAD /* Parentheses.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 472622FD238A624C002E0BAD /* Parentheses.cpp */; };
 		47262300238A6B2A002E0BAD /* HandleList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 472622FF238A6B2A002E0BAD /* HandleList.cpp */; };
@@ -49,6 +51,8 @@
 		471DE5FA23955C3100561870 /* RobMoney.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = RobMoney.cpp; sourceTree = "<group>"; };
 		471E5EAA238A421B00A4A9A9 /* CarSharing.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CarSharing.cpp; sourceTree = "<group>"; };
 		471E5EAC238A500500A4A9A9 /* Permutation.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Permutation.cpp; sourceTree = "<group>"; };
+		471FD46C239942DB0039B498 /* CalSum.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CalSum.cpp; sourceTree = "<group>"; };
+		471FD46E23994DB60039B498 /* AddTwoNum.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = AddTwoNum.cpp; sourceTree = "<group>"; };
 		472622FB238A5F62002E0BAD /* Matrix.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Matrix.cpp; sourceTree = "<group>"; };
 		472622FD238A624C002E0BAD /* Parentheses.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Parentheses.cpp; sourceTree = "<group>"; };
 		472622FF238A6B2A002E0BAD /* HandleList.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = HandleList.cpp; sourceTree = "<group>"; };
@@ -106,6 +110,8 @@
 				4717FDBC2396B8D6002FC691 /* Seek.cpp */,
 				471D7BCE2397F95600015E93 /* DictionaryOrder.cpp */,
 				471D7BD02397FD3D00015E93 /* Stock.cpp */,
+				471FD46C239942DB0039B498 /* CalSum.cpp */,
+				471FD46E23994DB60039B498 /* AddTwoNum.cpp */,
 			);
 			path = Algo_Practice;
 			sourceTree = "<group>";
@@ -171,6 +177,8 @@
 				472622FC238A5F62002E0BAD /* Matrix.cpp in Sources */,
 				472622FE238A624C002E0BAD /* Parentheses.cpp in Sources */,
 				4707D1C52396527F00A15132 /* MidNumber.cpp in Sources */,
+				471FD46F23994DB60039B498 /* AddTwoNum.cpp in Sources */,
+				471FD46D239942DB0039B498 /* CalSum.cpp in Sources */,
 				478102F6238805C600526DC5 /* AllSort.cpp in Sources */,
 				471DE5F92395503500561870 /* DynamicPlanning.cpp in Sources */,
 				471D7BCF2397F95600015E93 /* DictionaryOrder.cpp in Sources */,
