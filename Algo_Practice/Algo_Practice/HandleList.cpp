@@ -49,4 +49,29 @@ public:
         return newHead;
     }
     
+    
+    ListNode* reverseList(ListNode* head) {
+        ListNode *pre = NULL;
+        ListNode *cur = head;
+        ListNode *next = NULL;
+        while (cur != NULL) {
+            next = cur->next;
+            cur->next = pre;
+            pre = cur;
+            cur = next;
+        }
+        return pre;
+    }
+    
+    ListNode* reverseList2(ListNode* head) {
+        if (head == NULL || head->next == NULL) {
+            return head;
+        }
+        
+        ListNode *p = reverseList2(head->next);
+        head->next->next = head;
+        head->next = NULL;
+        return p;
+    }
+    
 };
