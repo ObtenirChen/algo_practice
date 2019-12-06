@@ -22,14 +22,14 @@ public:
         mp[s[0]] = 0;
         int i = 0;
         int j = 0;
-        int count = j - i;
+        int count = 0;
         while (j < s.size()) {
             if (mp.find(s[j]) != mp.end()) {
                 i = max(mp[s[j]], i);
                 
             }
-            mp[s[j]] = j;
-            count = max(count, j-i);
+            mp[s[j]] = j+1;
+            count = max(count, j-i+1);
             j++;
         }
         
