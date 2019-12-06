@@ -15,6 +15,7 @@
 #include "Seek.cpp"
 #include "SubStrings.cpp"
 #include "Jump.cpp"
+#include "RemoveNum.cpp"
 
 int main(int argc, const char * argv[]) {
     // insert code here...
@@ -74,9 +75,13 @@ int main(int argc, const char * argv[]) {
 //
 //    SubStrings *ss = new SubStrings();
 //    cout << ss->lengthOfLongestSubstring("abcdabcd");
-    Jump *jj = new Jump();
-    vector<int> rr = {2, 0 ,0};
-    jj->canJump(rr);
+//    Jump *jj = new Jump();
+//    vector<int> rr = {2, 0 ,0};
+//    jj->canJump(rr);
+    
+    RemoveNum *rm = new RemoveNum();
+    vector<int> result = {3, 2, 2, 3, 2};
+    rm->removeElement(result, 3);
     
     return 0;
 }

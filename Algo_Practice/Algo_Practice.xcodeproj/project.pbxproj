@@ -21,6 +21,7 @@
 		471FD46D239942DB0039B498 /* CalSum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 471FD46C239942DB0039B498 /* CalSum.cpp */; };
 		471FD46F23994DB60039B498 /* AddTwoNum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 471FD46E23994DB60039B498 /* AddTwoNum.cpp */; };
 		472616EF239AA35000651331 /* Jump.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 472616EE239AA35000651331 /* Jump.cpp */; };
+		472616F1239AAE3700651331 /* RemoveNum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 472616F0239AAE3700651331 /* RemoveNum.cpp */; };
 		472622FC238A5F62002E0BAD /* Matrix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 472622FB238A5F62002E0BAD /* Matrix.cpp */; };
 		472622FE238A624C002E0BAD /* Parentheses.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 472622FD238A624C002E0BAD /* Parentheses.cpp */; };
 		47262300238A6B2A002E0BAD /* HandleList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 472622FF238A6B2A002E0BAD /* HandleList.cpp */; };
@@ -57,6 +58,7 @@
 		471FD46C239942DB0039B498 /* CalSum.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CalSum.cpp; sourceTree = "<group>"; };
 		471FD46E23994DB60039B498 /* AddTwoNum.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = AddTwoNum.cpp; sourceTree = "<group>"; };
 		472616EE239AA35000651331 /* Jump.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Jump.cpp; sourceTree = "<group>"; };
+		472616F0239AAE3700651331 /* RemoveNum.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = RemoveNum.cpp; sourceTree = "<group>"; };
 		472622FB238A5F62002E0BAD /* Matrix.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Matrix.cpp; sourceTree = "<group>"; };
 		472622FD238A624C002E0BAD /* Parentheses.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Parentheses.cpp; sourceTree = "<group>"; };
 		472622FF238A6B2A002E0BAD /* HandleList.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = HandleList.cpp; sourceTree = "<group>"; };
@@ -118,6 +120,7 @@
 				471FD46E23994DB60039B498 /* AddTwoNum.cpp */,
 				4707D1C62399ED8B00A15132 /* SubStrings.cpp */,
 				472616EE239AA35000651331 /* Jump.cpp */,
+				472616F0239AAE3700651331 /* RemoveNum.cpp */,
 			);
 			path = Algo_Practice;
 			sourceTree = "<group>";
@@ -185,6 +188,7 @@
 				4707D1C72399ED8B00A15132 /* SubStrings.cpp in Sources */,
 				4707D1C52396527F00A15132 /* MidNumber.cpp in Sources */,
 				471FD46F23994DB60039B498 /* AddTwoNum.cpp in Sources */,
+				472616F1239AAE3700651331 /* RemoveNum.cpp in Sources */,
 				471FD46D239942DB0039B498 /* CalSum.cpp in Sources */,
 				478102F6238805C600526DC5 /* AllSort.cpp in Sources */,
 				471DE5F92395503500561870 /* DynamicPlanning.cpp in Sources */,
