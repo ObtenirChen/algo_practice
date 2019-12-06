@@ -14,6 +14,7 @@
 #include "DynamicPlanning.cpp"
 #include "Seek.cpp"
 #include "SubStrings.cpp"
+#include "Jump.cpp"
 
 int main(int argc, const char * argv[]) {
     // insert code here...
@@ -70,10 +71,12 @@ int main(int argc, const char * argv[]) {
 //    vector<int> num2 = {2};
 //    cout << sk->findMedianSortedArrays(num1, num2);
     
-    
-    SubStrings *ss = new SubStrings();
-    cout << ss->lengthOfLongestSubstring("abcdabcd");
-    
+//
+//    SubStrings *ss = new SubStrings();
+//    cout << ss->lengthOfLongestSubstring("abcdabcd");
+    Jump *jj = new Jump();
+    vector<int> rr = {2, 0 ,0};
+    jj->canJump(rr);
     
     return 0;
 }
