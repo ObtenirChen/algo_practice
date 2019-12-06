@@ -13,10 +13,15 @@
 #include "Matrix.cpp"
 #include "DynamicPlanning.cpp"
 #include "Seek.cpp"
+#include "SubStrings.cpp"
 
 int main(int argc, const char * argv[]) {
     // insert code here...
     std::cout << "Hello, World!\n";
+    
+//    string s;
+//    cin >> s;
+//    cout << s;
     
 //    vector<int> sortArr = {3, 5, 1, 30, 26, 19, 50, 99, 39, 41, 2};
 //    AllSort *as = new AllSort();
@@ -56,14 +61,19 @@ int main(int argc, const char * argv[]) {
 //    for (int i = 0; i < result.size(); i++) {
 //        cout << result[i] << " ";
 //    }
+//
+//    DynamicPlanning *dp = new DynamicPlanning();
+//    dp->numPermsDISequence("DID");
+//
+//    Seek *sk = new Seek();
+//    vector<int> num1 = {1, 3};
+//    vector<int> num2 = {2};
+//    cout << sk->findMedianSortedArrays(num1, num2);
     
-    DynamicPlanning *dp = new DynamicPlanning();
-    dp->numPermsDISequence("DID");
     
-    Seek *sk = new Seek();
-    vector<int> num1 = {1, 3};
-    vector<int> num2 = {2};
-    cout << sk->findMedianSortedArrays(num1, num2);
+    SubStrings *ss = new SubStrings();
+    cout << ss->lengthOfLongestSubstring("abcdabcd");
+    
     
     return 0;
 }

@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		4707D1C52396527F00A15132 /* MidNumber.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4707D1C42396527F00A15132 /* MidNumber.cpp */; };
+		4707D1C72399ED8B00A15132 /* SubStrings.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4707D1C62399ED8B00A15132 /* SubStrings.cpp */; };
 		47153F432388327E00EBBF1A /* TreeNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 47153F422388327E00EBBF1A /* TreeNode.cpp */; };
 		47153F45238832AD00EBBF1A /* HandleTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 47153F44238832AD00EBBF1A /* HandleTree.cpp */; };
 		4717FDBD2396B8D6002FC691 /* Seek.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4717FDBC2396B8D6002FC691 /* Seek.cpp */; };
@@ -42,6 +43,7 @@
 
 /* Begin PBXFileReference section */
 		4707D1C42396527F00A15132 /* MidNumber.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MidNumber.cpp; sourceTree = "<group>"; };
+		4707D1C62399ED8B00A15132 /* SubStrings.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SubStrings.cpp; sourceTree = "<group>"; };
 		47153F422388327E00EBBF1A /* TreeNode.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TreeNode.cpp; sourceTree = "<group>"; };
 		47153F44238832AD00EBBF1A /* HandleTree.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = HandleTree.cpp; sourceTree = "<group>"; };
 		4717FDBC2396B8D6002FC691 /* Seek.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Seek.cpp; sourceTree = "<group>"; };
@@ -112,6 +114,7 @@
 				471D7BD02397FD3D00015E93 /* Stock.cpp */,
 				471FD46C239942DB0039B498 /* CalSum.cpp */,
 				471FD46E23994DB60039B498 /* AddTwoNum.cpp */,
+				4707D1C62399ED8B00A15132 /* SubStrings.cpp */,
 			);
 			path = Algo_Practice;
 			sourceTree = "<group>";
@@ -176,6 +179,7 @@
 				472BFD2E238D6B0C0008AB5D /* Majority.cpp in Sources */,
 				472622FC238A5F62002E0BAD /* Matrix.cpp in Sources */,
 				472622FE238A624C002E0BAD /* Parentheses.cpp in Sources */,
+				4707D1C72399ED8B00A15132 /* SubStrings.cpp in Sources */,
 				4707D1C52396527F00A15132 /* MidNumber.cpp in Sources */,
 				471FD46F23994DB60039B498 /* AddTwoNum.cpp in Sources */,
 				471FD46D239942DB0039B498 /* CalSum.cpp in Sources */,
