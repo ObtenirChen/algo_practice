@@ -46,4 +46,28 @@ public:
         return (max(lmax1, lmax2) + min(rmin1, rmin2)) / 2.0;
     }
     
+    
+    int searchInsert(vector<int>& nums, int target) {
+        
+        int lo = 0;
+        int hi = (int)nums.size() - 1;
+        int result = 0;
+        int mid = 0;
+        while (lo <= hi) {
+            mid = (hi - lo) / 2 + lo;
+            if (target >= nums[mid]) {
+                if (mid == nums.size() - 1 || nums[mid + 1] >= target) {
+                    result = mid;
+                } else {
+                    lo = mid + 1;
+                }
+            } else if (target < nums[mid]) {
+                hi = mid - 1;
+            }
+        }
+        
+        return result+1;
+    }
+    
+    
 };
