@@ -79,9 +79,9 @@ int main(int argc, const char * argv[]) {
 //    vector<int> rr = {2, 0 ,0};
 //    jj->canJump(rr);
     
-    RemoveNum *rm = new RemoveNum();
-    vector<int> result = {3, 2, 2, 3, 2};
-    rm->removeElement(result, 3);
+//    RemoveNum *rm = new RemoveNum();
+//    vector<int> result = {3, 2, 2, 3, 2};
+//    rm->removeElement(result, 3);
     
     return 0;
 }
