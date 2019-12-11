@@ -48,25 +48,22 @@ public:
     
     
     int searchInsert(vector<int>& nums, int target) {
-        
+        if (nums.empty()) {
+            return 0;
+        }
         int lo = 0;
         int hi = (int)nums.size() - 1;
-        int result = 0;
-        int mid = 0;
+        
         while (lo <= hi) {
-            mid = (hi - lo) / 2 + lo;
-            if (target >= nums[mid]) {
-                if (mid == nums.size() - 1 || nums[mid + 1] >= target) {
-                    result = mid;
-                } else {
-                    lo = mid + 1;
-                }
-            } else if (target < nums[mid]) {
+            int mid = (hi - lo) / 2 + lo;
+            if (nums[mid] >= target) {
                 hi = mid - 1;
+            } else {
+                lo = mid + 1;
             }
         }
         
-        return result+1;
+        return lo;
     }
     
     

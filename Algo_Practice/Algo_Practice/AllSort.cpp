@@ -87,4 +87,32 @@ public:
         }
     }
     
+    
+    void quickSort(vector<int> &arr, int lo, int hi) {
+        
+        if (lo >= hi) {
+            return;
+        }
+        
+        int i = lo;
+        int j = hi;
+        int temp = arr[lo];
+        while (i < j) {
+            while (i < j && arr[j] >= temp) {
+                j--;
+            }
+            while (i < j && arr[i] <= temp) {
+                i++;
+            }
+            int tt = arr[i];
+            arr[i] = arr[j];
+            arr[j] = tt;
+        }
+        int tt = arr[i];
+        arr[i] = temp;
+        arr[lo] = tt;
+        quickSort(arr, lo, i-1);
+        quickSort(arr, i+1, hi);
+    }
+    
 };

@@ -16,6 +16,7 @@
 #include "SubStrings.cpp"
 #include "Jump.cpp"
 #include "RemoveNum.cpp"
+#include "HandleString.cpp"
 
 int main(int argc, const char * argv[]) {
     // insert code here...
@@ -28,12 +29,12 @@ int main(int argc, const char * argv[]) {
 //    vector<int> sortArr = {3, 5, 1, 30, 26, 19, 50, 99, 39, 41, 2};
 //    AllSort *as = new AllSort();
 //
-//    as->mergeSort(sortArr, 0, (int)sortArr.size() - 1);
+//    as->quickSort(sortArr, 0, (int)sortArr.size() - 1);
 //
 //    for (int i = 0; i < sortArr.size(); i++) {
 //        cout << sortArr[i] << " ";
 //    }
-    
+//
 //    ListNode *node1 = new ListNode(5);
 //    ListNode *node2 = new ListNode(1);
 //    node1->next = node2;
@@ -68,9 +69,10 @@ int main(int argc, const char * argv[]) {
 //    dp->numPermsDISequence("DID");
 //
 //    Seek *sk = new Seek();
-//    vector<int> num1 = {1, 3};
+//    vector<int> num1 = {1, 3, 5, 6};
 //    vector<int> num2 = {2};
 //    cout << sk->findMedianSortedArrays(num1, num2);
+//    cout << sk->searchInsert(num1, 7) << "\n";
     
 //
 //    SubStrings *ss = new SubStrings();
@@ -82,6 +84,9 @@ int main(int argc, const char * argv[]) {
 //    RemoveNum *rm = new RemoveNum();
 //    vector<int> result = {3, 2, 2, 3, 2};
 //    rm->removeElement(result, 3);
+    
+    HandleString *hs = new HandleString();
+    hs->strStr("aaaaa", "bba");
     
     return 0;
 }
