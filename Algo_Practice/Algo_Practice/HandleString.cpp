@@ -49,15 +49,12 @@ public:
             return -1;
         }
         
-        if(haystack.empty() && needle.empty()) {
-            return 0;
-        }
+        int result = -1;
         
-        int result = 0;
-        for (int i = 0; i < haystack.size() - needle.size() + 1; i++) {
+        for (int i = 0; i <= haystack.size() - needle.size(); i++) {
             bool match = true;
-            for (int j = i; j < needle.size(); j++) {
-                if (haystack[i] != needle[j]) {
+            for (int j = 0; j < needle.size(); j++) {
+                if (haystack[i+j] != needle[j]) {
                     match = false;
                     break;
                 }
