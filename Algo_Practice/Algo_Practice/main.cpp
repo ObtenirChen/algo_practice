@@ -17,6 +17,7 @@
 #include "Jump.cpp"
 #include "RemoveNum.cpp"
 #include "HandleString.cpp"
+#include "MergeSet.cpp"
 
 int main(int argc, const char * argv[]) {
     // insert code here...
@@ -86,7 +87,14 @@ int main(int argc, const char * argv[]) {
 //    rm->removeElement(result, 3);
     
     HandleString *hs = new HandleString();
-    hs->strStr("aaaaa", "bba");
+    int a = hs->strStr("aaaaa", "bba");
+    cout << a << "\n";
+    
+    MergeSet *ms = new MergeSet();
+    vector<vector<int>> aaa = {{1, 2}, {2, 3}, {1, 4}};
+    vector<vector<int>> result = ms->merge(aaa);
+    
+    delete ms;
     
     return 0;
 }
