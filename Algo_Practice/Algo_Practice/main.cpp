@@ -18,6 +18,7 @@
 #include "RemoveNum.cpp"
 #include "HandleString.cpp"
 #include "MergeSet.cpp"
+#include "HandleDivide.cpp"
 
 int main(int argc, const char * argv[]) {
     // insert code here...
@@ -85,16 +86,22 @@ int main(int argc, const char * argv[]) {
 //    RemoveNum *rm = new RemoveNum();
 //    vector<int> result = {3, 2, 2, 3, 2};
 //    rm->removeElement(result, 3);
+//
+//    HandleString *hs = new HandleString();
+//    hs->strStr("aaaaa", "bba");
     
-    HandleString *hs = new HandleString();
-    int a = hs->strStr("aaaaa", "bba");
-    cout << a << "\n";
-    
-    MergeSet *ms = new MergeSet();
-    vector<vector<int>> aaa = {{1, 2}, {2, 3}, {1, 4}};
-    vector<vector<int>> result = ms->merge(aaa);
-    
-    delete ms;
+//    HandleDivide *hd = new HandleDivide();
+//    int a = hd->divide(11, 3);
+//    
+//    HandleString *hs = new HandleString();
+//    int a = hs->strStr("aaaaa", "bba");
+//    cout << a << "\n";
+//    
+//    MergeSet *ms = new MergeSet();
+//    vector<vector<int>> aaa = {{1, 2}, {2, 3}, {1, 4}};
+//    vector<vector<int>> result = ms->merge(aaa);
+//    
+//    delete ms;
     
     return 0;
 }

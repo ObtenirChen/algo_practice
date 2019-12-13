@@ -19,6 +19,7 @@
 		471E5EAB238A421B00A4A9A9 /* CarSharing.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 471E5EAA238A421B00A4A9A9 /* CarSharing.cpp */; };
 		471E5EAD238A500500A4A9A9 /* Permutation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 471E5EAC238A500500A4A9A9 /* Permutation.cpp */; };
 		471F0D3523A13D1A00DBC298 /* HandleString.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 471F0D3423A13D1A00DBC298 /* HandleString.cpp */; };
+		471F0D3723A28B1C00DBC298 /* HandleDivide.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 471F0D3623A28B1C00DBC298 /* HandleDivide.cpp */; };
 		471FD46D239942DB0039B498 /* CalSum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 471FD46C239942DB0039B498 /* CalSum.cpp */; };
 		471FD46F23994DB60039B498 /* AddTwoNum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 471FD46E23994DB60039B498 /* AddTwoNum.cpp */; };
 		472616EF239AA35000651331 /* Jump.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 472616EE239AA35000651331 /* Jump.cpp */; };
@@ -59,6 +60,7 @@
 		471E5EAA238A421B00A4A9A9 /* CarSharing.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CarSharing.cpp; sourceTree = "<group>"; };
 		471E5EAC238A500500A4A9A9 /* Permutation.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Permutation.cpp; sourceTree = "<group>"; };
 		471F0D3423A13D1A00DBC298 /* HandleString.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = HandleString.cpp; sourceTree = "<group>"; };
+		471F0D3623A28B1C00DBC298 /* HandleDivide.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = HandleDivide.cpp; sourceTree = "<group>"; };
 		471FD46C239942DB0039B498 /* CalSum.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CalSum.cpp; sourceTree = "<group>"; };
 		471FD46E23994DB60039B498 /* AddTwoNum.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = AddTwoNum.cpp; sourceTree = "<group>"; };
 		472616EE239AA35000651331 /* Jump.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Jump.cpp; sourceTree = "<group>"; };
@@ -130,6 +132,7 @@
 				477BE278239B4C4B003A1448 /* BaoShu.cpp */,
 				471F0D3423A13D1A00DBC298 /* HandleString.cpp */,
 				477BE33223A1E007003A1448 /* MergeSet.cpp */,
+				471F0D3623A28B1C00DBC298 /* HandleDivide.cpp */,
 			);
 			path = Algo_Practice;
 			sourceTree = "<group>";
@@ -193,6 +196,7 @@
 			files = (
 				472BFD2E238D6B0C0008AB5D /* Majority.cpp in Sources */,
 				472622FC238A5F62002E0BAD /* Matrix.cpp in Sources */,
+				471F0D3723A28B1C00DBC298 /* HandleDivide.cpp in Sources */,
 				472622FE238A624C002E0BAD /* Parentheses.cpp in Sources */,
 				4707D1C72399ED8B00A15132 /* SubStrings.cpp in Sources */,
 				4707D1C52396527F00A15132 /* MidNumber.cpp in Sources */,
