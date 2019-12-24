@@ -124,4 +124,27 @@ public:
         return arr[mid];
     }
     
+    bool findNumInArr(vector<vector<int>> arr, int num) {
+        // 数组记得判空
+        if (arr.empty()) {
+            return false;
+        }
+        
+        int row = (int)arr.size();
+        int col = (int)arr[0].size();
+        int i = 0;
+        int j = col - 1;
+        
+        while (i < row && j >= 0) {
+            if (arr[i][j] < num) {
+                i++;
+            } else if (arr[i][j] > num) {
+                j--;
+            } else {
+                return true;
+            }
+        }
+        return false;
+    }
+    
 };

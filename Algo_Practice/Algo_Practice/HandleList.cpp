@@ -50,12 +50,36 @@ public:
     }
     
     
-    ListNode* reverseList(ListNode* head) {
-        ListNode *pre = NULL;
+//    ListNode* reverseList(ListNode* head) {
+//        ListNode *pre = NULL;
+//        ListNode *cur = head;
+//        ListNode *next = NULL;
+//        while (cur != NULL) {
+//            next = cur->next;
+//            cur->next = pre;
+//            pre = cur;
+//            cur = next;
+//        }
+//        return pre;
+//    }
+//
+//    ListNode* reverseList2(ListNode* head) {
+//        if (head == NULL || head->next == NULL) {
+//            return head;
+//        }
+//
+//        ListNode *p = reverseList2(head->next);
+//        head->next->next = head;
+//        head->next = NULL;
+//        return p;
+//    }
+    
+    
+    ListNode *revertList(ListNode *head) {
+        ListNode *pre = nullptr;
         ListNode *cur = head;
-        ListNode *next = NULL;
-        while (cur != NULL) {
-            next = cur->next;
+        while (cur != nullptr) {
+            ListNode *next = cur->next;
             cur->next = pre;
             pre = cur;
             cur = next;
@@ -63,15 +87,14 @@ public:
         return pre;
     }
     
-    ListNode* reverseList2(ListNode* head) {
-        if (head == NULL || head->next == NULL) {
+    
+    ListNode *revertList2(ListNode *head) {
+        if (head == nullptr || head->next == nullptr) {
             return head;
         }
-        
-        ListNode *p = reverseList2(head->next);
+        ListNode *p = revertList2(head->next);
         head->next->next = head;
-        head->next = NULL;
+        head->next = nullptr;
         return p;
     }
-    
 };
