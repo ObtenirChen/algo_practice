@@ -67,4 +67,61 @@ public:
     }
     
     
+    int midFind(vector<int> arr, int k) {
+        
+        int low = 0;
+        int hight = (int)arr.size() - 1;
+        while (low <= hight) {
+            int mid = low + (hight - low) / 2;
+            if (arr[mid] == k) {
+                return mid;
+            } else if (arr[mid] > k) {
+                hight = mid - 1;
+            } else if (arr[mid] < k) {
+                low = mid + 1;
+            }
+        }
+        return -1;
+    }
+    
+    
+    // 旋转数组中找最小值
+    int finMinNum(vector<int> arr) {
+        
+        if (arr.empty()) {
+            return -1;
+        }
+        
+        int low = 0;
+        int hight = (int)arr.size() - 1;
+        int mid = 0;
+        
+        while (arr[low] >= arr[hight]) {
+            if (hight - low == 1) {
+                return arr[hight];
+            }
+            
+            mid = low + (hight - low) / 2;
+            // 三个数相等的情况
+            if (arr[mid] == arr[low] && arr[mid] == arr[hight]) {
+                int target = arr[low];
+                for (int i = low + 1; i <= hight; i++) {
+                    if (arr[i] < target) {
+                        target = arr[i];
+                    }
+                }
+                return target;
+            }
+            
+            if (arr[mid] >= arr[low]) {
+                low = mid;
+            }
+            
+            if (arr[mid] <= arr[hight]) {
+                hight = mid;
+            }
+        }
+        return arr[mid];
+    }
+    
 };

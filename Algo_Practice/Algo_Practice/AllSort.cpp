@@ -46,27 +46,123 @@ public:
         quickSortList(cur, right);
     }
     
-    void mergeSort(vector<int> &arr, int low, int high) {
-        if (low >= high) {
+//    void mergeSort(vector<int> &arr, int low, int high) {
+//        if (low >= high) {
+//            return;
+//        }
+//
+//        int mid = (high - low)/2 + low;
+//
+//        mergeSort(arr, low, mid);
+//        mergeSort(arr, mid + 1, high);
+//        mergeArr(arr, low, mid, high);
+//    }
+//
+//    void mergeArr(vector<int> &arr, int low, int mid, int high) {
+//
+//        vector<int> temp(high - low + 1);
+//
+//        int p1 = low;
+//        int p2 = mid + 1;
+//        int i = 0;
+//
+//        while (p1 <= mid && p2 <= high) {
+//            if (arr[p1] < arr[p2]) {
+//                temp[i++] = arr[p1++];
+//            } else {
+//                temp[i++] = arr[p2++];
+//            }
+//        }
+//
+//        while (p1 <= mid) {
+//            temp[i++] = arr[p1++];
+//        }
+//
+//        while (p2 <= high) {
+//            temp[i++] = arr[p2++];
+//        }
+//
+//        for (int i = 0; i < temp.size(); i++) {
+//            arr[low+i] = temp[i];
+//        }
+//    }
+//
+    
+//    void quickSort(vector<int> &arr, int lo, int hi) {
+//
+//        if (lo >= hi) {
+//            return;
+//        }
+//
+//        int i = lo;
+//        int j = hi;
+//        int temp = arr[lo];
+//        while (i < j) {
+//            while (i < j && arr[j] >= temp) {
+//                j--;
+//            }
+//            while (i < j && arr[i] <= temp) {
+//                i++;
+//            }
+//            int tt = arr[i];
+//            arr[i] = arr[j];
+//            arr[j] = tt;
+//        }
+//        int tt = arr[i];
+//        arr[i] = temp;
+//        arr[lo] = tt;
+//        quickSort(arr, lo, i-1);
+//        quickSort(arr, i+1, hi);
+//    }
+    
+    
+    void quickSort(vector<int> &arr, int low, int hight) {
+        
+        if (low >= hight) {
             return;
         }
         
-        int mid = (high - low)/2 + low;
+        int i = low;
+        int j = hight;
+        int temp = arr[low];
         
-        mergeSort(arr, low, mid);
-        mergeSort(arr, mid + 1, high);
-        mergeArr(arr, low, mid, high);
+        while (i < j) {
+            while (i < j && arr[j] >= temp) {
+                j--;
+            }
+            
+            while (i < j && arr[i] <= temp) {
+                i++;
+            }
+            int tt = arr[i];
+            arr[i] = arr[j];
+            arr[j] = tt;
+        }
+        int tt = arr[i];
+        arr[i] = arr[low];
+        arr[low] = tt;
+        
+        quickSort(arr, low, i-1);
+        quickSort(arr, i+1, hight);
     }
     
-    void mergeArr(vector<int> &arr, int low, int mid, int high) {
-        
-        vector<int> temp(high - low + 1);
-        
+    void mergeSort(vector<int> &arr, int low, int hight) {
+        if (low >= hight) {
+            return;
+        }
+        int mid = low + (hight - low) / 2;
+        mergeSort(arr, low, mid);
+        mergeSort(arr, mid + 1, hight);
+        merge(arr, low, hight, mid);
+    }
+    
+    
+    void merge(vector<int> &arr, int low, int hight, int mid) {
+        vector<int> temp(hight - low + 1);
         int p1 = low;
         int p2 = mid + 1;
         int i = 0;
-        
-        while (p1 <= mid && p2 <= high) {
+        while (p1 <= mid && p2 <= hight) {
             if (arr[p1] < arr[p2]) {
                 temp[i++] = arr[p1++];
             } else {
@@ -78,41 +174,15 @@ public:
             temp[i++] = arr[p1++];
         }
         
-        while (p2 <= high) {
+        while (p2 <= hight) {
             temp[i++] = arr[p2++];
         }
         
-        for (int i = 0; i < temp.size(); i++) {
-            arr[low+i] = temp[i];
-        }
-    }
-    
-    
-    void quickSort(vector<int> &arr, int lo, int hi) {
-        
-        if (lo >= hi) {
-            return;
+        for (int j = 0; j < temp.size(); j++) {
+            arr[low + j] = temp[j];
         }
         
-        int i = lo;
-        int j = hi;
-        int temp = arr[lo];
-        while (i < j) {
-            while (i < j && arr[j] >= temp) {
-                j--;
-            }
-            while (i < j && arr[i] <= temp) {
-                i++;
-            }
-            int tt = arr[i];
-            arr[i] = arr[j];
-            arr[j] = tt;
-        }
-        int tt = arr[i];
-        arr[i] = temp;
-        arr[lo] = tt;
-        quickSort(arr, lo, i-1);
-        quickSort(arr, i+1, hi);
     }
+    
     
 };
