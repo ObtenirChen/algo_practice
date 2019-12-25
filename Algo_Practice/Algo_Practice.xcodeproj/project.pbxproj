@@ -12,6 +12,7 @@
 		47153F432388327E00EBBF1A /* TreeNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 47153F422388327E00EBBF1A /* TreeNode.cpp */; };
 		47153F45238832AD00EBBF1A /* HandleTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 47153F44238832AD00EBBF1A /* HandleTree.cpp */; };
 		4717FDBD2396B8D6002FC691 /* Seek.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4717FDBC2396B8D6002FC691 /* Seek.cpp */; };
+		471BDCE023B3A27600535F3F /* ZeroOne.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 471BDCDF23B3A27600535F3F /* ZeroOne.cpp */; };
 		471D7BCF2397F95600015E93 /* DictionaryOrder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 471D7BCE2397F95600015E93 /* DictionaryOrder.cpp */; };
 		471D7BD12397FD3D00015E93 /* Stock.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 471D7BD02397FD3D00015E93 /* Stock.cpp */; };
 		471DE5F92395503500561870 /* DynamicPlanning.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 471DE5F82395503500561870 /* DynamicPlanning.cpp */; };
@@ -53,6 +54,7 @@
 		47153F422388327E00EBBF1A /* TreeNode.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TreeNode.cpp; sourceTree = "<group>"; };
 		47153F44238832AD00EBBF1A /* HandleTree.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = HandleTree.cpp; sourceTree = "<group>"; };
 		4717FDBC2396B8D6002FC691 /* Seek.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Seek.cpp; sourceTree = "<group>"; };
+		471BDCDF23B3A27600535F3F /* ZeroOne.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ZeroOne.cpp; sourceTree = "<group>"; };
 		471D7BCE2397F95600015E93 /* DictionaryOrder.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = DictionaryOrder.cpp; sourceTree = "<group>"; };
 		471D7BD02397FD3D00015E93 /* Stock.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Stock.cpp; sourceTree = "<group>"; };
 		471DE5F82395503500561870 /* DynamicPlanning.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = DynamicPlanning.cpp; sourceTree = "<group>"; };
@@ -133,6 +135,7 @@
 				471F0D3423A13D1A00DBC298 /* HandleString.cpp */,
 				477BE33223A1E007003A1448 /* MergeSet.cpp */,
 				471F0D3623A28B1C00DBC298 /* HandleDivide.cpp */,
+				471BDCDF23B3A27600535F3F /* ZeroOne.cpp */,
 			);
 			path = Algo_Practice;
 			sourceTree = "<group>";
@@ -203,6 +206,7 @@
 				471FD46F23994DB60039B498 /* AddTwoNum.cpp in Sources */,
 				472616F1239AAE3700651331 /* RemoveNum.cpp in Sources */,
 				477BE279239B4C4B003A1448 /* BaoShu.cpp in Sources */,
+				471BDCE023B3A27600535F3F /* ZeroOne.cpp in Sources */,
 				471FD46D239942DB0039B498 /* CalSum.cpp in Sources */,
 				478102F6238805C600526DC5 /* AllSort.cpp in Sources */,
 				471DE5F92395503500561870 /* DynamicPlanning.cpp in Sources */,
