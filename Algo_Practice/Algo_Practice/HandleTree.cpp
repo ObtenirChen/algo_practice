@@ -9,6 +9,8 @@
 #include <stdio.h>
 #include "TreeNode.cpp"
 #include <vector>
+#include <stack>
+#include <iostream>
 
 using namespace std;
 
@@ -40,6 +42,57 @@ public:
         return max(root->val + left, root->val + right);
     }
     
+    TreeNode* lowestCommonAncestor(TreeNode* root, TreeNode* p, TreeNode* q) {
+        if (root == NULL) {
+            return root;
+        }
+        
+        if (root->val > p->val && root->val > q->val) {
+            return lowestCommonAncestor(root->left, p, q);
+        } else if (root->val < p->val && root->val < q->val) {
+            return lowestCommonAncestor(root->right, p, q);
+        } else {
+            return root;
+        }
+    }
     
+    TreeNode* commonAncestor(TreeNode* root, TreeNode* p, TreeNode* q) {
+        if (root == NULL || root == p || root == q) {
+            return root;
+        }
+        TreeNode *left = commonAncestor(root->left, p, q);
+        TreeNode *right = commonAncestor(root->right, p, q);
+        
+        return left == NULL ? right : (right == NULL ? left : root);
+    }
+    
+
+    void InOrderWithoutRecursion1(TreeNode* root) {
+        if (root == NULL) {
+            return;
+        }
+        
+        stack<TreeNode *> ss;
+        TreeNode *p = root;
+        while (!ss.empty() || p) {
+            
+            while (p != NULL) {
+                ss.push(p);
+                p = p->left;
+            }
+            if (!ss.empty()) {
+                p = ss.top();
+                ss.pop();
+                cout << p->val << " ";
+                p = p->right;
+            }
+            
+        }
+    }
+    
+
+    void PostOrderWithoutRecursion(TreeNode* root) {
+        
+    }
     
 };
