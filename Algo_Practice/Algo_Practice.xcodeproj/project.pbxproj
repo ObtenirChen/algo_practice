@@ -12,6 +12,7 @@
 		47153F432388327E00EBBF1A /* TreeNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 47153F422388327E00EBBF1A /* TreeNode.cpp */; };
 		47153F45238832AD00EBBF1A /* HandleTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 47153F44238832AD00EBBF1A /* HandleTree.cpp */; };
 		4717FDBD2396B8D6002FC691 /* Seek.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4717FDBC2396B8D6002FC691 /* Seek.cpp */; };
+		471807FC23B4F570005433AB /* RevertInt.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 471807FB23B4F570005433AB /* RevertInt.cpp */; };
 		471BDCE023B3A27600535F3F /* ZeroOne.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 471BDCDF23B3A27600535F3F /* ZeroOne.cpp */; };
 		471BDCE223B3AC9300535F3F /* QuanPaiLie.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 471BDCE123B3AC9300535F3F /* QuanPaiLie.cpp */; };
 		471D7BCF2397F95600015E93 /* DictionaryOrder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 471D7BCE2397F95600015E93 /* DictionaryOrder.cpp */; };
@@ -55,6 +56,7 @@
 		47153F422388327E00EBBF1A /* TreeNode.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TreeNode.cpp; sourceTree = "<group>"; };
 		47153F44238832AD00EBBF1A /* HandleTree.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = HandleTree.cpp; sourceTree = "<group>"; };
 		4717FDBC2396B8D6002FC691 /* Seek.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Seek.cpp; sourceTree = "<group>"; };
+		471807FB23B4F570005433AB /* RevertInt.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = RevertInt.cpp; sourceTree = "<group>"; };
 		471BDCDF23B3A27600535F3F /* ZeroOne.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ZeroOne.cpp; sourceTree = "<group>"; };
 		471BDCE123B3AC9300535F3F /* QuanPaiLie.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = QuanPaiLie.cpp; sourceTree = "<group>"; };
 		471D7BCE2397F95600015E93 /* DictionaryOrder.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = DictionaryOrder.cpp; sourceTree = "<group>"; };
@@ -139,6 +141,7 @@
 				471F0D3623A28B1C00DBC298 /* HandleDivide.cpp */,
 				471BDCDF23B3A27600535F3F /* ZeroOne.cpp */,
 				471BDCE123B3AC9300535F3F /* QuanPaiLie.cpp */,
+				471807FB23B4F570005433AB /* RevertInt.cpp */,
 			);
 			path = Algo_Practice;
 			sourceTree = "<group>";
@@ -221,6 +224,7 @@
 				477BE33323A1E007003A1448 /* MergeSet.cpp in Sources */,
 				4717FDBD2396B8D6002FC691 /* Seek.cpp in Sources */,
 				47262300238A6B2A002E0BAD /* HandleList.cpp in Sources */,
+				471807FC23B4F570005433AB /* RevertInt.cpp in Sources */,
 				472616EF239AA35000651331 /* Jump.cpp in Sources */,
 				471D7BD12397FD3D00015E93 /* Stock.cpp in Sources */,
 				471E5EAD238A500500A4A9A9 /* Permutation.cpp in Sources */,

@@ -20,6 +20,7 @@
 #include "MergeSet.cpp"
 #include "HandleDivide.cpp"
 #include "ZeroOne.cpp"
+#include "RevertInt.cpp"
 
 int main(int argc, const char * argv[]) {
     // insert code here...
@@ -104,11 +105,21 @@ int main(int argc, const char * argv[]) {
 //    
 //    delete ms;
     
-    vector<int> value = {0 , 2 , 5 , 3 , 10 , 4};
-    vector<int> wight = {0 , 1 , 3 , 2 , 6 , 2};
-    ZeroOne *zo = new ZeroOne();
-    int mm = zo->maxValue(value, wight, 12);
-    cout << mm << "\n";
+//    vector<int> value = {0 , 2 , 5 , 3 , 10 , 4};
+//    vector<int> wight = {0 , 1 , 3 , 2 , 6 , 2};
+//    ZeroOne *zo = new ZeroOne();
+//    int mm = zo->maxValue(value, wight, 12);
+//    cout << mm << "\n";
+    
+    while (true) {
+        int a = 0;
+        cin >> a;
+        RevertInt *ri = new RevertInt();
+        cout << ri->revertIntNum(a) << "\n";
+    }
+    
+    
+    
     
     return 0;
 }
