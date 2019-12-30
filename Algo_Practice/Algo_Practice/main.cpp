@@ -21,6 +21,7 @@
 #include "HandleDivide.cpp"
 #include "ZeroOne.cpp"
 #include "RevertInt.cpp"
+#include "StringSort.cpp"
 
 int main(int argc, const char * argv[]) {
     // insert code here...
@@ -111,14 +112,16 @@ int main(int argc, const char * argv[]) {
 //    int mm = zo->maxValue(value, wight, 12);
 //    cout << mm << "\n";
     
-    while (true) {
-        int a = 0;
-        cin >> a;
-        RevertInt *ri = new RevertInt();
-        cout << ri->revertIntNum(a) << "\n";
-    }
+//    while (true) {
+//        int a = 0;
+//        cin >> a;
+//        RevertInt *ri = new RevertInt();
+//        cout << ri->revertIntNum(a) << "\n";
+//    }
     
-    
+    vector<int> input = {3,32,321};
+    StringSort *ss = new StringSort();
+    ss->PrintMinNumber(input);
     
     
     return 0;

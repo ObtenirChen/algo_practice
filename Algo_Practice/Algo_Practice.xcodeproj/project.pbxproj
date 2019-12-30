@@ -36,6 +36,7 @@
 		478102ED2388052000526DC5 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 478102EC2388052000526DC5 /* main.cpp */; };
 		478102F42388054100526DC5 /* ListNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 478102F32388054100526DC5 /* ListNode.cpp */; };
 		478102F6238805C600526DC5 /* AllSort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 478102F5238805C600526DC5 /* AllSort.cpp */; };
+		47EFA4D323B90168002D1132 /* StringSort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 47EFA4D223B90168002D1132 /* StringSort.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -81,6 +82,7 @@
 		478102EC2388052000526DC5 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		478102F32388054100526DC5 /* ListNode.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ListNode.cpp; sourceTree = "<group>"; };
 		478102F5238805C600526DC5 /* AllSort.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = AllSort.cpp; sourceTree = "<group>"; };
+		47EFA4D223B90168002D1132 /* StringSort.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = StringSort.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,6 +144,7 @@
 				471BDCDF23B3A27600535F3F /* ZeroOne.cpp */,
 				471BDCE123B3AC9300535F3F /* QuanPaiLie.cpp */,
 				471807FB23B4F570005433AB /* RevertInt.cpp */,
+				47EFA4D223B90168002D1132 /* StringSort.cpp */,
 			);
 			path = Algo_Practice;
 			sourceTree = "<group>";
@@ -227,6 +230,7 @@
 				471807FC23B4F570005433AB /* RevertInt.cpp in Sources */,
 				472616EF239AA35000651331 /* Jump.cpp in Sources */,
 				471D7BD12397FD3D00015E93 /* Stock.cpp in Sources */,
+				47EFA4D323B90168002D1132 /* StringSort.cpp in Sources */,
 				471E5EAD238A500500A4A9A9 /* Permutation.cpp in Sources */,
 				471F0D3523A13D1A00DBC298 /* HandleString.cpp in Sources */,
 				47153F45238832AD00EBBF1A /* HandleTree.cpp in Sources */,

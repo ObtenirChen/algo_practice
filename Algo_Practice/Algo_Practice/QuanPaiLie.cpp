@@ -8,6 +8,7 @@
 
 #include <stdio.h>
 #include <vector>
+#include <stack>
 
 using namespace std;
 
@@ -52,6 +53,7 @@ public:
             subs.push_back(nums[j]);
             backTrackSubSets(nums, subs, i+1, result);
             subs.pop_back();
+            
         }
     }
     
