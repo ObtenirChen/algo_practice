@@ -8,6 +8,7 @@
 
 #include <stdio.h>
 #include <vector>
+#include <iostream>
 
 using namespace std;
 
@@ -145,6 +146,34 @@ public:
             }
         }
         return false;
+    }
+    
+    int GetNumberOfK(vector<int> data ,int k) {
+        int count = 0;
+        int lo = 0;
+        int hi = (int)data.size() - 1;
+        while(lo <= hi) {
+            int mid = lo + (hi - lo) / 2;
+            if(data[mid] >= k) {
+                hi = mid - 1;
+            } else {
+                lo = mid + 1;
+            }
+        }
+        if(data[lo] == k) {
+            count = 1;
+        } else {
+            return count;
+        }
+        for(int i = lo+1; i < data.size(); i++) {
+            
+            if(data[i] == data[i-1]) {
+                count++;
+            } else {
+                break;
+            }
+        }
+        return count;
     }
     
 };

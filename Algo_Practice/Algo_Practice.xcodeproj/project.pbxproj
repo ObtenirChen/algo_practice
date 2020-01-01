@@ -9,10 +9,12 @@
 /* Begin PBXBuildFile section */
 		4707D1C52396527F00A15132 /* MidNumber.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4707D1C42396527F00A15132 /* MidNumber.cpp */; };
 		4707D1C72399ED8B00A15132 /* SubStrings.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4707D1C62399ED8B00A15132 /* SubStrings.cpp */; };
+		4715394F23BCC93E005EC4EC /* MergeCollection.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4715394E23BCC93E005EC4EC /* MergeCollection.cpp */; };
 		47153F432388327E00EBBF1A /* TreeNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 47153F422388327E00EBBF1A /* TreeNode.cpp */; };
 		47153F45238832AD00EBBF1A /* HandleTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 47153F44238832AD00EBBF1A /* HandleTree.cpp */; };
 		4717FDBD2396B8D6002FC691 /* Seek.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4717FDBC2396B8D6002FC691 /* Seek.cpp */; };
 		471807FC23B4F570005433AB /* RevertInt.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 471807FB23B4F570005433AB /* RevertInt.cpp */; };
+		471BC15023BC7D94005F225B /* KillGame.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 471BC14F23BC7D94005F225B /* KillGame.cpp */; };
 		471BDCE023B3A27600535F3F /* ZeroOne.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 471BDCDF23B3A27600535F3F /* ZeroOne.cpp */; };
 		471BDCE223B3AC9300535F3F /* QuanPaiLie.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 471BDCE123B3AC9300535F3F /* QuanPaiLie.cpp */; };
 		471D7BCF2397F95600015E93 /* DictionaryOrder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 471D7BCE2397F95600015E93 /* DictionaryOrder.cpp */; };
@@ -36,6 +38,7 @@
 		478102ED2388052000526DC5 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 478102EC2388052000526DC5 /* main.cpp */; };
 		478102F42388054100526DC5 /* ListNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 478102F32388054100526DC5 /* ListNode.cpp */; };
 		478102F6238805C600526DC5 /* AllSort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 478102F5238805C600526DC5 /* AllSort.cpp */; };
+		47A59EB123BB8ED9002D5920 /* HandleStr.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 47A59EB023BB8ED9002D5920 /* HandleStr.cpp */; };
 		47EFA4D323B90168002D1132 /* StringSort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 47EFA4D223B90168002D1132 /* StringSort.cpp */; };
 /* End PBXBuildFile section */
 
@@ -54,10 +57,12 @@
 /* Begin PBXFileReference section */
 		4707D1C42396527F00A15132 /* MidNumber.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MidNumber.cpp; sourceTree = "<group>"; };
 		4707D1C62399ED8B00A15132 /* SubStrings.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SubStrings.cpp; sourceTree = "<group>"; };
+		4715394E23BCC93E005EC4EC /* MergeCollection.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MergeCollection.cpp; sourceTree = "<group>"; };
 		47153F422388327E00EBBF1A /* TreeNode.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TreeNode.cpp; sourceTree = "<group>"; };
 		47153F44238832AD00EBBF1A /* HandleTree.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = HandleTree.cpp; sourceTree = "<group>"; };
 		4717FDBC2396B8D6002FC691 /* Seek.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Seek.cpp; sourceTree = "<group>"; };
 		471807FB23B4F570005433AB /* RevertInt.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = RevertInt.cpp; sourceTree = "<group>"; };
+		471BC14F23BC7D94005F225B /* KillGame.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = KillGame.cpp; sourceTree = "<group>"; };
 		471BDCDF23B3A27600535F3F /* ZeroOne.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ZeroOne.cpp; sourceTree = "<group>"; };
 		471BDCE123B3AC9300535F3F /* QuanPaiLie.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = QuanPaiLie.cpp; sourceTree = "<group>"; };
 		471D7BCE2397F95600015E93 /* DictionaryOrder.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = DictionaryOrder.cpp; sourceTree = "<group>"; };
@@ -82,6 +87,7 @@
 		478102EC2388052000526DC5 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		478102F32388054100526DC5 /* ListNode.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ListNode.cpp; sourceTree = "<group>"; };
 		478102F5238805C600526DC5 /* AllSort.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = AllSort.cpp; sourceTree = "<group>"; };
+		47A59EB023BB8ED9002D5920 /* HandleStr.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = HandleStr.cpp; sourceTree = "<group>"; };
 		47EFA4D223B90168002D1132 /* StringSort.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = StringSort.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -145,6 +151,9 @@
 				471BDCE123B3AC9300535F3F /* QuanPaiLie.cpp */,
 				471807FB23B4F570005433AB /* RevertInt.cpp */,
 				47EFA4D223B90168002D1132 /* StringSort.cpp */,
+				47A59EB023BB8ED9002D5920 /* HandleStr.cpp */,
+				471BC14F23BC7D94005F225B /* KillGame.cpp */,
+				4715394E23BCC93E005EC4EC /* MergeCollection.cpp */,
 			);
 			path = Algo_Practice;
 			sourceTree = "<group>";
@@ -209,11 +218,13 @@
 				472BFD2E238D6B0C0008AB5D /* Majority.cpp in Sources */,
 				472622FC238A5F62002E0BAD /* Matrix.cpp in Sources */,
 				471F0D3723A28B1C00DBC298 /* HandleDivide.cpp in Sources */,
+				471BC15023BC7D94005F225B /* KillGame.cpp in Sources */,
 				472622FE238A624C002E0BAD /* Parentheses.cpp in Sources */,
 				4707D1C72399ED8B00A15132 /* SubStrings.cpp in Sources */,
 				4707D1C52396527F00A15132 /* MidNumber.cpp in Sources */,
 				471FD46F23994DB60039B498 /* AddTwoNum.cpp in Sources */,
 				472616F1239AAE3700651331 /* RemoveNum.cpp in Sources */,
+				47A59EB123BB8ED9002D5920 /* HandleStr.cpp in Sources */,
 				471BDCE223B3AC9300535F3F /* QuanPaiLie.cpp in Sources */,
 				477BE279239B4C4B003A1448 /* BaoShu.cpp in Sources */,
 				471BDCE023B3A27600535F3F /* ZeroOne.cpp in Sources */,
@@ -235,6 +246,7 @@
 				471F0D3523A13D1A00DBC298 /* HandleString.cpp in Sources */,
 				47153F45238832AD00EBBF1A /* HandleTree.cpp in Sources */,
 				478102F42388054100526DC5 /* ListNode.cpp in Sources */,
+				4715394F23BCC93E005EC4EC /* MergeCollection.cpp in Sources */,
 				47153F432388327E00EBBF1A /* TreeNode.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -119,9 +119,13 @@ int main(int argc, const char * argv[]) {
 //        cout << ri->revertIntNum(a) << "\n";
 //    }
     
-    vector<int> input = {3,32,321};
-    StringSort *ss = new StringSort();
-    ss->PrintMinNumber(input);
+//    vector<int> input = {3,32,321};
+//    StringSort *ss = new StringSort();
+//    ss->PrintMinNumber(input);
+    
+    vector<int> input = {1,3,3,3,3,4,5};
+    Seek *sk = new Seek();
+    sk->GetNumberOfK(input, 2);
     
     
     return 0;
