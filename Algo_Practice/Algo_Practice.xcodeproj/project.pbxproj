@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		4707D1C52396527F00A15132 /* MidNumber.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4707D1C42396527F00A15132 /* MidNumber.cpp */; };
 		4707D1C72399ED8B00A15132 /* SubStrings.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4707D1C62399ED8B00A15132 /* SubStrings.cpp */; };
+		4715040D23BCD9FC009430CE /* ColorSort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4715040C23BCD9FC009430CE /* ColorSort.cpp */; };
+		4715040F23BCDE34009430CE /* CollectionSum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4715040E23BCDE34009430CE /* CollectionSum.cpp */; };
 		4715394F23BCC93E005EC4EC /* MergeCollection.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4715394E23BCC93E005EC4EC /* MergeCollection.cpp */; };
 		47153F432388327E00EBBF1A /* TreeNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 47153F422388327E00EBBF1A /* TreeNode.cpp */; };
 		47153F45238832AD00EBBF1A /* HandleTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 47153F44238832AD00EBBF1A /* HandleTree.cpp */; };
@@ -57,6 +59,8 @@
 /* Begin PBXFileReference section */
 		4707D1C42396527F00A15132 /* MidNumber.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MidNumber.cpp; sourceTree = "<group>"; };
 		4707D1C62399ED8B00A15132 /* SubStrings.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SubStrings.cpp; sourceTree = "<group>"; };
+		4715040C23BCD9FC009430CE /* ColorSort.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ColorSort.cpp; sourceTree = "<group>"; };
+		4715040E23BCDE34009430CE /* CollectionSum.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CollectionSum.cpp; sourceTree = "<group>"; };
 		4715394E23BCC93E005EC4EC /* MergeCollection.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MergeCollection.cpp; sourceTree = "<group>"; };
 		47153F422388327E00EBBF1A /* TreeNode.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TreeNode.cpp; sourceTree = "<group>"; };
 		47153F44238832AD00EBBF1A /* HandleTree.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = HandleTree.cpp; sourceTree = "<group>"; };
@@ -154,6 +158,8 @@
 				47A59EB023BB8ED9002D5920 /* HandleStr.cpp */,
 				471BC14F23BC7D94005F225B /* KillGame.cpp */,
 				4715394E23BCC93E005EC4EC /* MergeCollection.cpp */,
+				4715040C23BCD9FC009430CE /* ColorSort.cpp */,
+				4715040E23BCDE34009430CE /* CollectionSum.cpp */,
 			);
 			path = Algo_Practice;
 			sourceTree = "<group>";
@@ -236,10 +242,12 @@
 				478102ED2388052000526DC5 /* main.cpp in Sources */,
 				471DE5FB23955C3100561870 /* RobMoney.cpp in Sources */,
 				477BE33323A1E007003A1448 /* MergeSet.cpp in Sources */,
+				4715040F23BCDE34009430CE /* CollectionSum.cpp in Sources */,
 				4717FDBD2396B8D6002FC691 /* Seek.cpp in Sources */,
 				47262300238A6B2A002E0BAD /* HandleList.cpp in Sources */,
 				471807FC23B4F570005433AB /* RevertInt.cpp in Sources */,
 				472616EF239AA35000651331 /* Jump.cpp in Sources */,
+				4715040D23BCD9FC009430CE /* ColorSort.cpp in Sources */,
 				471D7BD12397FD3D00015E93 /* Stock.cpp in Sources */,
 				47EFA4D323B90168002D1132 /* StringSort.cpp in Sources */,
 				471E5EAD238A500500A4A9A9 /* Permutation.cpp in Sources */,
