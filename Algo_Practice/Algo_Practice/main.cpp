@@ -34,7 +34,8 @@ int main(int argc, const char * argv[]) {
     vector<int> sortArr = {3, 5, 1, 30, 26, 19, 50, 99, 39, 41, 2};
     AllSort *as = new AllSort();
     
-    int result = as->finkMaxK(sortArr, 3, 0, (int)sortArr.size() - 1);
+//    int result = as->finkMaxK(sortArr, 3, 0, (int)sortArr.size() - 1);
+    string result = as->compress("aaaabbcdd");
     cout << result << "\n";
 //
 //    as->quickSort(sortArr, 0, (int)sortArr.size() - 1);

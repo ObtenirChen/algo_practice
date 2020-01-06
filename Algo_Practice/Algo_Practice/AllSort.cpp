@@ -9,6 +9,7 @@
 #include <stdio.h>
 #include "ListNode.cpp"
 #include <vector>
+#include <string>
 
 using namespace std;
 
@@ -326,5 +327,80 @@ public:
         } else {
             return finkMaxK(arr, k, i + 1, hight);
         }
+    }
+    
+    
+    void countingSort(vector<int> &arr) {
+        if (arr.size() <= 1) {
+            return;
+        }
+        
+        int maxNum = arr[0];
+        for (int i = 1; i < arr.size(); i++) {
+            if (maxNum < arr[i]) {
+                maxNum = arr[i];
+            }
+        }
+        
+        vector<int> container(maxNum, 0);
+        
+        for (int i = 0; i < arr.size(); i++) {
+            container[arr[i]]++;
+        }
+        
+        for (int i = 0; i < maxNum; i++) {
+            container[i] = container[i-1] + container[i];
+        }
+        
+        vector<int> result(arr.size(), 0);
+        for (int i = (int)arr.size()-1; i >= 0; i--) {
+            int index = container[arr[i]]-1;
+            result[index] = arr[i];
+            container[arr[i]]--;
+        }
+        
+    }
+    
+    void shellSort(vector<int> &arr) {
+        int h = 1;
+        while (h < arr.size() / 3) {
+            h = 3 * h + 1;
+        }
+        
+        while (h >= 1) {
+            for (int i = h; i < arr.size(); i++) {
+                int tt = arr[i];
+                int j;
+                for (j = i; j >= h && tt <= arr[j-h]; j -= h) {
+                    arr[j] = arr[j-h];
+                }
+                arr[j] = tt;
+            }
+            
+            h /= 3;
+        }
+    }
+    
+    
+    string compress(string s) {
+        if (s.empty()) {
+            return s;
+        }
+        
+        string result;
+        int cnt = 1;
+        for (int i = 1; i < s.size(); i++) {
+            if (s[i] == s[i-1]) {
+                cnt++;
+            } else {
+                string tmp = s[i-1] + to_string(cnt);
+                result.append(tmp);
+                cnt = 1;
+            }
+        }
+        string tmp = s[s.size()-1] + to_string(cnt);
+        result.append(tmp);
+        
+        return result;
     }
 };

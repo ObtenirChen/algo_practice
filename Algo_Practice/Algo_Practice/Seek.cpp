@@ -176,4 +176,54 @@ public:
         return count;
     }
     
+    int findNum_0105(vector<int> &arr, int k) {
+        int low = 0;
+        int hight = (int)arr.size() - 1;
+        while (low <= hight) {
+            int mid = low + (hight - low) / 2;
+            if (arr[mid] == k) {
+                return mid;
+            } else if (arr[mid] > k) {
+                hight = mid - 1;
+            } else {
+                low = mid + 1;
+            }
+        }
+        return -1;
+    }
+    
+    int finMinNum_0105(vector<int> arr) {
+        if (arr.empty()) {
+            return -1;
+        }
+        
+        int lo = 0;
+        int hi = (int)arr.size() - 1;
+        int mid = 0;
+        
+        while (arr[lo] >= arr[hi]) {
+            if (hi - lo == 1) {
+                return arr[lo + 1];
+            }
+            
+            mid = lo + (hi - lo) / 2;
+            
+            if (arr[lo] == arr[mid] == arr[hi]) {
+                int minX = arr[lo];
+                for (int i = lo+1; i < hi; i++) {
+                    if (minX < arr[i]) {
+                        minX = arr[i];
+                    }
+                }
+                return minX;
+            } else if (arr[mid] >= arr[hi]) {
+                lo = mid;
+            } else if (arr[mid] <= arr[lo]) {
+                hi = mid;
+            }
+        }
+        
+        return arr[mid];
+    }
+    
 };

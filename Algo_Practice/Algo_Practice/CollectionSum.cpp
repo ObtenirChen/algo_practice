@@ -8,6 +8,7 @@
 
 #include <stdio.h>
 #include <vector>
+#include <string>
 
 using namespace std;
 
@@ -41,5 +42,30 @@ public:
             sub.pop_back();
         }
     }
+    
+    
+    vector<string> permute(string &str) {
+        vector<string> result;
+        backtrace_0105_string(str, 0, result);
+        
+        return result;
+    }
+    
+    void backtrace_0105_string(string &str, int first, vector<string> &result) {
+        if (first == str.size()) {
+            result.push_back(str);
+            return;
+        }
+        
+        for (int i = first; i < str.size(); i++) {
+            if (i >= 1 && str[i] == str[i-1]) {
+                continue;
+            }
+            swap(str[first], str[i]);
+            backtrace_0105_string(str, first + 1, result);
+            swap(str[first], str[i]);
+        }
+    }
+    
     
 };
